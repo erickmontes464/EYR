@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <link rel="preload" as="image" href="vecteezy_ai-generated-a-loving-couple-holding-a-glittering-red-heart_38126758.jpeg">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+    <title>Para Ti</title>
+    <link rel="stylesheet" href="css/estilo.css">
+</head>
+
+<body>
+<!-- Profile Selection Screen -->
+<section id="profile-selection">
+    <div class="netflix-logo">
+        <svg viewBox="0 0 111 30" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" aria-hidden="true" role="img">
+            <g><path d="M105.06233,14.2806261 L110.999156,30 C109.249227,29.7497422 107.500234,29.4366857 105.718437,29.1554972 L102.374168,20.4686475 L98.9371075,28.4375293 C97.2499766,28.1563408 95.5928391,28.061674 93.9057081,27.8432843 L99.9372012,14.0931671 L94.4680851,-5.68434189e-14 L99.5313525,-5.68434189e-14 L102.593495,7.87421502 L105.874965,-5.68434189e-14 L110.999156,-5.68434189e-14 L105.06233,14.2806261 Z M90.4686475,-5.68434189e-14 L85.8749649,-5.68434189e-14 L85.8749649,27.2499766 C87.3746368,27.3437061 88.9371075,27.4055675 90.4686475,27.5930265 L90.4686475,-5.68434189e-14 Z M81.9055207,26.93692 C77.7186241,26.6557316 73.5307901,26.4064111 69.250164,26.3117443 L69.250164,-5.68434189e-14 L73.9366389,-5.68434189e-14 L73.9366389,21.8745899 C76.6248008,21.9373887 79.3120255,22.1557784 81.9055207,22.2804387 L81.9055207,26.93692 Z M64.2496954,10.6561065 L64.2496954,15.3435186 L57.8442216,15.3435186 L57.8442216,25.9996251 L53.2186709,25.9996251 L53.2186709,-5.68434189e-14 L66.3436123,-5.68434189e-14 L66.3436123,4.68741213 L57.8442216,4.68741213 L57.8442216,10.6561065 L64.2496954,10.6561065 Z M45.3435186,4.68741213 L45.3435186,26.2498828 C43.7810479,26.2498828 42.1876465,26.2498828 40.6561065,26.3117443 L40.6561065,4.68741213 L35.8121661,4.68741213 L35.8121661,-5.68434189e-14 L50.2183897,-5.68434189e-14 L50.2183897,4.68741213 L45.3435186,4.68741213 Z M30.749836,15.5928391 C28.687787,15.5928391 26.2498828,15.5928391 24.4999531,15.6875059 L24.4999531,22.6562939 C27.2499766,22.4678976 30,22.2495079 32.7809542,22.1557784 L32.7809542,26.6557316 L19.812541,27.6876933 L19.812541,-5.68434189e-14 L32.7809542,-5.68434189e-14 L32.7809542,4.68741213 L24.4999531,4.68741213 L24.4999531,10.9991564 C26.3126816,10.9991564 29.0936358,10.9054269 30.749836,10.9054269 L30.749836,15.5928391 Z M4.78114163,12.9684132 L4.78114163,29.3429562 C3.09401069,29.5313525 1.59340144,29.7497422 0,30 L0,-5.68434189e-14 L4.4690224,-5.68434189e-14 L10.562377,17.0315868 L10.562377,-5.68434189e-14 L15.2497891,-5.68434189e-14 L15.2497891,28.061674 C13.5935889,28.3437998 11.906458,28.4375293 10.1246602,28.6868498 L4.78114163,12.9684132 Z"></path></g>
+        </svg>
+    </div>
+    <h1 class="profile-title">¿Quién está viendo ahora?</h1>
+
+    <div class="profiles-container">
+        <div class="profile-card" data-profile="book">
+            <div class="profile-image">
+                <img src="image/USER_ERICK.JPG" alt="Perfil 1">
+            </div>
+            <div class="profile-name">Erick</div>
+        </div>
+        <div class="profile-card" data-profile="hands">
+            <div class="profile-image">
+                <img src="image/USER_ROCIO.png" alt="Perfil 2">
+            </div>
+            <div class="profile-name">Rocio</div>
+        </div>
+    </div>
+    <div class="player-container" id="player">
+        <div class="spotify-icon">♪</div>
+        <div class="player-header">
+            <img src="image/disco.png" alt="Album Cover" class="album-cover" id="albumCover">
+            <div class="song-info">
+                <div class="song-title" id="songTitle">Look After You</div>
+            </div>
+            <button class="favorite-btn" id="favoriteBtn">♡</button>
+        </div>
+        <div class="controls">
+            <button class="control-btn play-btn" id="playBtn">
+                <svg class="play-icon-svg" viewBox="0 0 24 24">
+                    <path d="M8 5v14l11-7z"/>
+                </svg>
+            </button>
+        </div>
+        <div class="volume-controls">
+                <span class="volume-icon" id="volumeIcon">
+                    <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor">
+                        <path d="M3 9v6h4l5 5V4L7 9H3zm13.5 3c0-1.77-1.02-3.29-2.5-4.03v8.05c1.48-.73 2.5-2.25 2.5-4.02zM14 3.23v2.06c2.89.86 5 3.54 5 6.71s-2.11 5.85-5 6.71v2.06c4.01-.91 7-4.49 7-8.77s-2.99-7.86-7-8.77z"/>
+                    </svg>
+                </span>
+            <div class="volume-slider-container" id="volumeSliderContainer">
+                <div class="volume-slider-vertical" id="volumeSliderVertical">
+                    <div class="volume-slider-fill" id="volumeSliderFill"></div>
+                </div>
+                <div class="volume-percentage" id="volumePercentage">70%</div>
+            </div>
+        </div>
+        <div class="progress-container">
+            <div class="progress-bar" id="progressBar">
+                <div class="progress" id="progress"></div>
+            </div>
+            <div class="time-info">
+                <span id="currentTime">0:00</span>
+                <span id="duration">0:00</span>
+            </div>
+        </div>
+        <div class="wave-animation"></div>
+        <audio id="audioPlayer" src="music/The%20Fray%20-%20Look%20After%20You.mp3" preload="auto"></audio>
+    </div>
+</section>
+
+<!-- Main Content Screen -->
+<section id="series-detail">
+    <div class="netflix-logo">
+        <svg viewBox="0 0 111 30" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" aria-hidden="true" role="img">
+            <g><path d="M105.06233,14.2806261 L110.999156,30 C109.249227,29.7497422 107.500234,29.4366857 105.718437,29.1554972 L102.374168,20.4686475 L98.9371075,28.4375293 C97.2499766,28.1563408 95.5928391,28.061674 93.9057081,27.8432843 L99.9372012,14.0931671 L94.4680851,-5.68434189e-14 L99.5313525,-5.68434189e-14 L102.593495,7.87421502 L105.874965,-5.68434189e-14 L110.999156,-5.68434189e-14 L105.06233,14.2806261 Z M90.4686475,-5.68434189e-14 L85.8749649,-5.68434189e-14 L85.8749649,27.2499766 C87.3746368,27.3437061 88.9371075,27.4055675 90.4686475,27.5930265 L90.4686475,-5.68434189e-14 Z M81.9055207,26.93692 C77.7186241,26.6557316 73.5307901,26.4064111 69.250164,26.3117443 L69.250164,-5.68434189e-14 L73.9366389,-5.68434189e-14 L73.9366389,21.8745899 C76.6248008,21.9373887 79.3120255,22.1557784 81.9055207,22.2804387 L81.9055207,26.93692 Z M64.2496954,10.6561065 L64.2496954,15.3435186 L57.8442216,15.3435186 L57.8442216,25.9996251 L53.2186709,25.9996251 L53.2186709,-5.68434189e-14 L66.3436123,-5.68434189e-14 L66.3436123,4.68741213 L57.8442216,4.68741213 L57.8442216,10.6561065 L64.2496954,10.6561065 Z M45.3435186,4.68741213 L45.3435186,26.2498828 C43.7810479,26.2498828 42.1876465,26.2498828 40.6561065,26.3117443 L40.6561065,4.68741213 L35.8121661,4.68741213 L35.8121661,-5.68434189e-14 L50.2183897,-5.68434189e-14 L50.2183897,4.68741213 L45.3435186,4.68741213 Z M30.749836,15.5928391 C28.687787,15.5928391 26.2498828,15.5928391 24.4999531,15.6875059 L24.4999531,22.6562939 C27.2499766,22.4678976 30,22.2495079 32.7809542,22.1557784 L32.7809542,26.6557316 L19.812541,27.6876933 L19.812541,-5.68434189e-14 L32.7809542,-5.68434189e-14 L32.7809542,4.68741213 L24.4999531,4.68741213 L24.4999531,10.9991564 C26.3126816,10.9991564 29.0936358,10.9054269 30.749836,10.9054269 L30.749836,15.5928391 Z M4.78114163,12.9684132 L4.78114163,29.3429562 C3.09401069,29.5313525 1.59340144,29.7497422 0,30 L0,-5.68434189e-14 L4.4690224,-5.68434189e-14 L10.562377,17.0315868 L10.562377,-5.68434189e-14 L15.2497891,-5.68434189e-14 L15.2497891,28.061674 C13.5935889,28.3437998 11.906458,28.4375293 10.1246602,28.6868498 L4.78114163,12.9684132 Z"></path></g>
+        </svg>
+    </div>
+    <button class="back-button" id="back-to-profiles">Gestionar perfiles</button>
+    <div class="hero-section inicio" >
+        <nav class="nav-bar " >
+            <div class="nav-item active" data-nav="inicio" >Inicio</div>
+            <div class="nav-item" data-nav="series">Series</div>
+            <div class="nav-item" data-nav="musica">Música</div>
+            <div class="nav-item" data-nav="lista">Mi lista</div>
+        </nav>
+        <div class="series-content">
+            <div class="series-label">
+                <span class="n-letter">N</span>
+                <span class="series-text">SERIE</span>
+            </div>
+            <h1 class="series-title">Un poquito de nosotros</h1>
+            <div class="year-duration">
+                13+ 2024 • 1 episodios • Romance • Drama                </div>
+            <p class="series-description">
+                Eres el tesoro más valioso que tengo, prometo cuidarte y estar contigo en las buenas y en las malas. El amor es una decisión y yo decido estar contigo el resto de mi vida. Te amo como nunca lo he hecho, mi amor ♥                </p>
+            <div class="action-buttons">
+                <button class="play-button" id="play-button">
+                    <span class="play-icon">▶</span> Reproducir
+                </button>
+                <button class="info-button" id="info-button">
+                    <span class="info-icon">ⓘ</span> Más información
+                </button>
+            </div>
+        </div>
+    </div>
+    <div class="episodes-section">
+        <h2 class="episodes-title">Episodios</h2>
+        <div class="episodes-row">
+            <div class="episode-thumb" data-episode="1" data-image="https://f004.backblazeb2.com/file/Dedicapag-Net-2025/episodes%2F697a5aafa6929_IMG_0285.png">
+                <img src="https://f004.backblazeb2.com/file/Dedicapag-Net-2025/episodes%2F697a5aafa6929_IMG_0285.png" alt="Episodio 1">
+                <div class="episode-number">1</div>
+                <div class="episode-duration">25m</div>
+                <div class="episode-overlay">1. Nuestro Viaje a Tarapoto</div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Music Player in Music Section -->
+    <div class="music-player-section" id="music-player-section" style="display: none;">
+        <div class="player-container" id="music-section-player">
+            <div class="spotify-icon">♪</div>
+            <div class="player-header">
+                <img src="assets/disco.png" alt="Album Cover" class="album-cover" id="musicAlbumCover">
+                <div class="song-info">
+                    <div class="song-title" id="musicSongTitle">Those Eyes</div>
+                </div>
+                <button class="favorite-btn" id="musicFavoriteBtn">♡</button>
+            </div>
+            <div class="controls">
+                <button class="control-btn play-btn" id="musicPlayBtn">
+                    <svg class="play-icon-svg" viewBox="0 0 24 24">
+                        <path d="M8 5v14l11-7z"/>
+                    </svg>
+                </button>
+            </div>
+            <div class="volume-controls">
+                    <span class="volume-icon" id="musicVolumeIcon">
+                        <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor">
+                            <path d="M3 9v6h4l5 5V4L7 9H3zm13.5 3c0-1.77-1.02-3.29-2.5-4.03v8.05c1.48-.73 2.5-2.25 2.5-4.02zM14 3.23v2.06c2.89.86 5 3.54 5 6.71s-2.11 5.85-5 6.71v2.06c4.01-.91 7-4.49 7-8.77s-2.99-7.86-7-8.77z"/>
+                        </svg>
+                    </span>
+                <div class="volume-slider-container" id="musicVolumeSliderContainer">
+                    <div class="volume-slider-vertical" id="musicVolumeSliderVertical">
+                        <div class="volume-slider-fill" id="musicVolumeSliderFill"></div>
+                    </div>
+                    <div class="volume-percentage" id="musicVolumePercentage">70%</div>
+                </div>
+            </div>
+            <div class="progress-container">
+                <div class="progress-bar" id="musicProgressBar">
+                    <div class="progress" id="musicProgress"></div>
+                </div>
+                <div class="time-info">
+                    <span id="musicCurrentTime">0:00</span>
+                    <span id="musicDuration">0:00</span>
+                </div>
+            </div>
+            <div class="wave-animation"></div>
+            <audio id="musicAudioPlayer" src="https://dedicapag.com/es/PagNet/music/Those%20Eyes.mp3" preload="auto"></audio>
+        </div>
+    </div>
+</section>
+
+<!-- Info Modal -->
+<div class="modal" id="info-modal">
+    <div class="modal-content">
+        <button class="close-modal" id="close-modal">×</button>
+        <div class="modal-image" style="background-image: url('https://f004.backblazeb2.com/file/Dedicapag-Net-2025/modal_images%2F697a5aaca1297_IMG_2304.png');">
+            <img src="https://f004.backblazeb2.com/file/Dedicapag-Net-2025/modal_images%2F697a5aaca1297_IMG_2304.png" alt="Serie romántica">            </div><div class="modal-info">
+        <h2 class="modal-title">Un poquito de nosotros</h2>
+        <p class="modal-details">
+            <strong>Duración: 1 episodios • Año: 2024 Clasificación: 13+ • Género: Romance, Drama</strong><br><br>
+            Una serie íntima que explora el poder transformador del amor verdadero...<br><br>
+        </p>
+    </div>
+    </div>
+</div>
+
+<!-- Episode Detail Modal -->
+<div class="episode-modal" id="episode-modal">
+    <div class="episode-modal-content">
+        <button class="close-episode-modal" id="close-episode-modal">×</button>
+        <img class="episode-modal-image" id="episode-modal-image" src="" alt="Episode Image">
+        <div class="episode-modal-info">
+            <h3 class="episode-modal-title" id="episode-modal-title"></h3>
+            <p class="episode-modal-description" id="episode-modal-description"></p>
+        </div>
+    </div>
+</div>
+
+<!-- Video Player -->
+<!-- Video Player -->
+<div class="video-player" id="video-player">
+    <div class="video-container">
+        <button class="close-video" id="close-video">×</button>
+        <video controls id="romantic-video">
+            <source src="https://f004.backblazeb2.com/file/Dedicapag-Net-2025/videos%2F697a5ab059e34_IMG_3598_-_Trim_-_Trim.mp4" type="video/mp4">
+            Tu navegador no soporta el elemento de video.
+        </video>
+    </div>
+</div>
+
+<script src="js/app.js"></script>
+</body>
+</html>
